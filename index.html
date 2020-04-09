@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/glide.core.min.css">
+    <link rel="stylesheet" href="css/glide.theme.min.css">
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-light bg-light header__nav">
+        <span class="navbar-brand mb-0 header__title">Portfolio</span>
+      </nav>
+    </header>
+    <section class="description bg-white">
+      <div class="wrap">
+        <div class="row">
+          <div class="col-3 description__photo"></div>
+          <div class="col-8 offset-1 description__info">
+            <h1 class="description__title">Yauheni Vaniushyn</h1>
+            <ul class="list-group list-group-flush description__list">
+              <li class="list-group-item description__item">
+                <i class="fas fa-mail-bulk description__icon"></i>
+                <a href="mailto:d90375@gmail.com " class="description__link" target="_blank">Email</a>
+              </li>
+              <li class="list-group-item description__item">
+                <i class="fab fa-telegram-plane description__icon"></i>
+                <a href="https://t.me/d90375" class="description__link" target="_blank">Telegram</a>
+              </li>
+              <li class="list-group-item description__item">
+                <i class="fab fa-github-square description__icon"></i>
+                <a href="https://github.com/d90375" class="description__link" target="_blank">Github</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="education bg-light">
+      <nav class="navbar navbar-light bg-light education__nav">
+        <span class="navbar-brand mb-0 education__title">Education</span>
+      </nav>
+      <ul class="list-group list-group-flush toggleList education__list">
+        <li class="list-group-item education__item">2019, RS School.</li>
+      </ul>
+    </section>
+    <section class="projects bg-light">
+      <nav class="navbar navbar-light bg-light projects__nav">
+        <span class="navbar-brand mb-0 education__title">Projects</span>
+      </nav>
+    </section>
+    <div class="container">
+      <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide"><img src="http://qnimate.com/wp-content/uploads/2014/03/images2.jpg" alt=""></li>
+            <li class="glide__slide"><img src="http://www.hyperlinkcode.com/images/hcImageHyperlink.jpg" alt=""></li>
+            <li class="glide__slide"><img src="http://www.hyperlinkcode.com/images/ConstrainProportions.jpg" alt=""></li>
+          </ul>
+          <div class="glide__arrows" data-glide-el="controls">
+            <button class="btn glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+            <button class="btn glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer bg-light">
+      <nav class="navbar navbar-light bg-light projects__nav">
+        <span class="navbar-brand mb-0 education__title">Portfolio</span>
+      </nav>
+    </footer>
+    <script src="js/index.js"></script>
+    <script src="https://kit.fontawesome.com/22ddffb6d3.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script>
+      const config = {
+        perView: 1,
+        startAt: 0,
+        keyboard: true,
+        autoplay: 5000
+      }
+      new Glide('.glide',config).mount();
+    </script>
+  </body>
+</html>

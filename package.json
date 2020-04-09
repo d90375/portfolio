@@ -1,0 +1,22 @@
+{
+  "name": "d90375",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "useTabs": false,
+    "singleQuote": true,
+    "printWidth": 300,
+    "bracketSpacing": true
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1"
+  }
+}
